@@ -1,0 +1,16 @@
+package overriding;
+
+public class Over_riding {
+class Vehicle{
+	void run() {
+		System.out.println("vehicle is running");
+	}
+	}
+ class Bike extends Vehicle{
+	public void main(String[]args) {
+	 Bike obj =new Bike();	
+	 obj.run();
+	}
+}
+}
+
